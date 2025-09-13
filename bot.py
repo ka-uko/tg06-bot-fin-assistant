@@ -12,7 +12,7 @@ from aiogram.fsm. storage. memory import MemoryStorage
 from config import TOKEN
 import sqlite3
 import aiohttp
-import logging  #Для удобства здесь можно также использовать логирование, что, по сути, является ведением журнала событий. Это полезно для записи сообщений, событий или информации о работе программы. Для этого импортируем библиотеку Logging
+import logging
 import requests
 import random
 
